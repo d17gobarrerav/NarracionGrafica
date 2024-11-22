@@ -1,0 +1,44 @@
+/* Fondo general del sitio */
+body {
+    background-color: rgb(110, 127, 170); /* Fondo */
+    color: #000; /* Texto principal en negro */
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /* Espaciado del texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Títulos principales */
+h1, h2 {
+    color: #fff; /* Blanco puro */
+    text-align: left; /* Alineados a la izquierda */
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Imágenes */
+img {
+    display: block;
+    margin: 10px auto; /* Centrado horizontal */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 100%; /* Escalado proporcional */
+    height: auto;
+}
+
+/* Listas */
+ul {
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px;
+    border-radius: 5px;
+}
